@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.output
+          filename: metrics.output.svg
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_habits: yes
